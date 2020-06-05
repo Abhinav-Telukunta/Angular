@@ -17,6 +17,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+
+import { MatSliderModule } from '@angular/material/slider';
 import 'hammerjs';
 
 import { MenuComponent } from './menu/menu.component';
@@ -64,7 +66,8 @@ import { LoginComponent } from './login/login.component';
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatSliderModule
   ],
   providers: [
     DishService,
